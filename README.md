@@ -1,6 +1,6 @@
 # SwiftUINavDestinationBug  
 
-This project demonstrates a bug in SwiftUI related to nested navigation when using `.navigationDestination(item:)`.  
+This project demonstrates a bug in SwiftUI related to nested navigation when using different `.navigationDestination` modifers in the same hierarchy.  
 
 ## Overview  
 
