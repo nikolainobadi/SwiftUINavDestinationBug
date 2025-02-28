@@ -6,11 +6,11 @@ This project demonstrates a bug in SwiftUI related to nested navigation when usi
 
 The app consists of two tabs:  
 
-- **"Ok" Tab** ✅ (Green)  
+- **"Ok" Tab** (Green)  
   - Uses `NavigationPath` to navigate to `ItemRouteChildStack`.  
   - Further navigation inside `ItemRouteChildStack` using `NavigationLink` works as expected.  
 
-- **"Bug" Tab** ❌ (Red)  
+- **"Bug" Tab** (Red)  
   - Uses `.navigationDestination(item:)` to navigate to `ItemRouteChildStack`.  
   - Further navigation inside `ItemRouteChildStack` using `NavigationLink` does not work.  
 
@@ -19,10 +19,10 @@ The app consists of two tabs:
 1. Run the app.  
 2. In the **"Ok" Tab**, tap the button.  
    - The app navigates to `ItemRouteChildStack`.  
-   - Selecting any item in the list successfully navigates to another view. ✅  
+   - Selecting any item in the list successfully navigates to another view.  
 3. In the **"Bug" Tab**, tap the button.  
    - The app navigates to `ItemRouteChildStack`.  
-   - Selecting any item in the list does **not** navigate to a new view. ❌  
+   - Selecting any item in the list does **not** navigate to a new view.  
 
 ## Code Breakdown  
 
